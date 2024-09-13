@@ -10,6 +10,7 @@ const Bookings = async () => {
   if (!session?.user) {
     // TODO: mostrar pop-up de login
     return notFound()
+    
   }
   const confirmedBookings = await db.booking.findMany({
     where: {

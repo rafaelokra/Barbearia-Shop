@@ -8,7 +8,7 @@ import BookingItem from "./_components/booking-item"
 import Search from "./_components/search"
 import Link from "next/link"
 import { getServerSession } from "next-auth"
-import { authOptions } from "./_lib/auth"
+import { authOptions} from "./_lib/auth"
 import { format } from "date-fns"
 import { ptBR } from "date-fns/locale"
 
